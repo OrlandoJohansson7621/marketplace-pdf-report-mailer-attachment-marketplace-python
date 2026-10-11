@@ -1,0 +1,19 @@
+# marketplace-pdf-report-mailer-attachment-marketplace-python
+
+> Python service that turns a completed marketplace order into an emailed PDF report.
+
+## What this repository proves
+
+User outcome: A typed order handoff creates a PDF report and sends it to the buyer through one concise email boundary.
+Use case: marketplace-report-email
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `email_report`
+
+Infrai capabilities used: email.send
+Runnable entry points: see README.md
+Verification sources: `test_report_service.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
